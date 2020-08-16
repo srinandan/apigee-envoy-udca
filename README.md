@@ -24,7 +24,7 @@ This pattern describes how to setup Apigee adapter for Envoy with Apigee SaaS (o
 
 This repo will explain how to setup the Apgee adapter for Envoy in a cluster and have it connect to the runtime and control plane instances that are managed by Apigee.
 
-![pattern1](./images/pattern2.png)
+![pattern2](./images/pattern2.png)
 
 ## Setup Instructions
 
