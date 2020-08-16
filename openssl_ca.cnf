@@ -1,0 +1,16 @@
+[req]
+req_extensions = v3_req
+distinguished_name = req_distinguished_name
+
+[req_distinguished_name]
+
+[ v3_ca ]
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer:always
+basicConstraints = CA:true
+subjectAltName=email:move
+
+[ v3_req ]
+# Extensions to add to a certificate request
+basicConstraints = CA:TRUE
+keyUsage         = nonRepudiation, digitalSignature, keyEncipherment, dataEncipherment
